@@ -1,0 +1,157 @@
+*
+{
+	border: 0;
+	margin: 0;
+}
+
+@font-face
+{
+	font-family: "ChaletNewYorkNineteenEighty";
+	src: url("../fonts/ChaletNewYorkNineteenEighty.ttf") format("truetype");
+}
+
+a
+{
+	color: #131573;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #55cac9;
+}
+
+body
+{
+	background: #FFF;
+	color: #212121;
+	font-family: "ChaletNewYorkNineteenEighty", Helvetica, Verdana;
+	font-size: 16px;
+}
+
+nav, #main
+{
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 18px;
+	margin: .25em;
+	text-align: left;
+	width: 20%;
+	vertical-align: top;
+}
+
+ul
+{
+	list-style: none;
+	margin-top: 10px;
+}
+
+ul li
+{
+	margin-bottom: 7px;
+	padding: 7px;
+	background: #fdaf7a;
+	color: #4f280e;
+	border-radius: 5px;
+}
+
+ul li:hover
+{
+	background: #f7d0a7;
+	color: #90562e;
+}
+
+#content
+{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#main
+{
+	width: 75%;
+}
+
+.config
+{
+	-ms-transition: all 2.5s ease-out;
+	-moz-transition: all 2.5s ease-out;
+	-o-transition: all 2.5s ease-out;
+	-webkit-transition: all 2.5s ease-out;
+	transition: all 2.5s ease-out;
+}
+
+fieldset
+{
+	border: .1em solid #F60;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+form div
+{
+	margin: .5em;
+}
+
+input[type="checkbox"], input[type="radio"], select
+{
+	background: #EEE;
+	cursor: pointer;
+}
+
+input[type="date"], input[type="email"], input[type="number"], input[type="text"]
+{
+	background: #EEE;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+}
+
+input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="text"]:focus
+{
+	background: #C6ECF9;
+}
+
+input[type="email"]:disabled
+{
+	background: transparent;
+	color: #CCC;
+}
+
+input[type="submit"]
+{
+	background: #FF9A55;
+	border-radius: 0 .25em;
+	color: #500;
+	font-family: "ChaletNewYorkNineteenEighty";
+	font-size: 1.5em;
+}
+
+input[type="submit"]:hover
+{
+	background: #7BBFD5;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+}
+
+label
+{
+	cursor: pointer;
+	font-size: 1.2em;
+}
+
+.mensage
+{
+	background: yellow;
+	border-radius: .5em;
+	color: #000;
+	font-family: Verdana;
+	font-size: 1em;
+	padding: .5em;
+}
